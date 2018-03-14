@@ -22,7 +22,11 @@
 <!--Content-->
 
 <h1>Fourier Analysis Using MATLAB</h1>
-<p>Work in progress.</p>
+<p>Fourier analysis is used to to mathematically switch a signal between the frequency and time domains; the operation is reversible. Some applications of this include audo equalization, image processing, and spectroscopy. MATLAB is a common method of implementing fast Fourier transforms (FFT), which computes the discrete Fourier transform (DFT), as a means of sampling and discretizing a continuous signal. This reveals the frequency components of a signal observed in the time domain. As the operation is reverible, the inverse (IFFT) can also be performed. FFTs have smaller computational cost than other direct implementations. It is important to note that in the frequency domain, signals have x-axis symmetry, and often it is useful to only observe positive frequencies.</p>
+<p>FFTs have many uses. They can be used to shift a signal to baseband or center frequency. They can be used to filter out noise, if the received signal strength (RSSI) is above the nosie floor. FFTs are used in convolution and IFFTs are used in auto-correlation. These operations are shift-invariant and linear.
+
+Convolution of two time-domain signals is represented as the product of their Fourier transforms. Generally, a signal is convolved with some known response function and the resultant signal appears as the original signal shaped by the response function. Convolution can also be performed with the samples of two discrete functions. It is common in DSP to picture convolution as a sliding window; the response function 'slides' across the input signal, and each point is multiplied. This hints at why zero-padding is important for an accurate response.</p>
+Auto-correlation can be performed by multiplying one Fourier transform by the conjugate of the other.
 
 </body>
 </html>
