@@ -76,6 +76,7 @@
 .box {
   background: $dark4;
   border-radius: 0.3rem;
+  padding: 10 px
 }
 
 .tg  {border-collapse:collapse;border-spacing:0;}
