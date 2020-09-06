@@ -67,8 +67,7 @@
   background-color var(--shadow): 
   color: white;
   border-radius: 0.3rem;
-  padding: 20px
-  margin-top: 20px;
+  padding: 25px
 }
 
 .tg  {border-collapse:collapse;border-spacing:0;}
