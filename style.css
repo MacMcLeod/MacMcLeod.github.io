@@ -6,7 +6,9 @@
   --shadow:#2A3132;
   --autumn: #763626;
 }
-
+.a {/* Links inside the dropdown */
+    text-decoration: none;
+}
 /* Style The Dropdown Button */
 .dropbtn {
     background-color: var(--mist);  
